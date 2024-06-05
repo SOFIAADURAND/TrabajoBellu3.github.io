@@ -56,7 +56,7 @@ nav {
 /*ESTILOS LINKS EN BARRA DE NAVEGACIÓN*/
 nav a{
     /*Color te texto*/
-    color: #ff0095;
+    color: #3300ff;
     /*Decoración de texto: subrayado | tachado | etc.*/
     text-decoration: none;
     /*Tipografía*/
@@ -74,7 +74,7 @@ nav a{
 /*Cambios al pasar el mouse sobre el elemento (hover)*/
 nav a:hover{
     /*Cambio de color*/
-    color: #7700ff;
+    color: #edca00;
 }
 
 /*ESTILOS LOGO BARRA DE NAVEGACIÓN*/
@@ -112,7 +112,7 @@ nav a:hover{
     /*Transformar texto a mayúsuclas*/
     text-transform: uppercase;
     /*Sombra: offset-x | offset-y | blur-radius | color */
-    text-shadow: 2px 2px 3px black;
+    /* text-shadow: 2px 2px 3px black; */
     /*Espaciado interior*/
     padding: 0px 0px 100px 0px;
 
@@ -121,9 +121,9 @@ nav a:hover{
 /*ESTILOS DEL BOTON*/
 .btn {
     /*Color de fondo*/
-    background-color: #ff0095;
+    background-color: #ffe600;
     /*Color de tipografía*/
-    color: white;
+    color: rgb(0, 0, 0);
     /*Decoracion del texto*/
     text-decoration: none;
     /*Alineación del texto*/
@@ -133,7 +133,7 @@ nav a:hover{
     /*Tamaño de fuente*/
     font-size: 0.8rem;
     /*PEso de fuente*/
-    font-weight: 400;
+    font-weight: 500;
     /*Espaciado interno*/
     padding: 2px 5px;
     /*Cambios al hover por tiempo (1s)*/
@@ -143,7 +143,8 @@ nav a:hover{
 /*Al pasar el mouse por arriba*/
 .btn:hover {
     /*Cambio de color de fondo*/
-    background-color: #7700ff;
+    background-color: #1500ff;
+    color: rgb(255, 255, 255);
 }
 
 /*ESTRUCTURA de la plantilla | Tocar bajo su propio riesgo*/
